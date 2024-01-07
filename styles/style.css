@@ -95,6 +95,9 @@ main {
   max-width: 1140px;
   margin: 0 auto;
 }
+main > section {
+  margin: 130px 0;
+}
 /* css for about section  */
 .about {
   padding: 130px;
@@ -140,3 +143,35 @@ main {
 /* .skill-description {
   text-align: left;
 } */
+
+/* css for resume section */
+.resume-column-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
+.resume-container {
+  display: flex;
+  gap: 50px;
+}
+.resume-item-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.resume-item-institution {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.resume-item-description,
+.resume-item-institution {
+  color: #757575;
+}
+.resume-container hr {
+  margin: 30px;
+}
+.download-cv {
+  text-align: center;
+  margin-top: 50px;
+}
